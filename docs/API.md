@@ -44,21 +44,33 @@
 ## API Регистрация / Авторизация
 
 ### Метод POST/auth/register (Регистрация нового пользователя)
-### Request:
-### {
-### "email": "user@mail.ru";
-### "password": "0000string";
-### "fname": "Петр Петров";
-### "phone": "89110005556"
-### }
+ Request:
 
-### Response:
-### {
-### "id": "1";
-### "email": "user@mail.ru";
-### "fname": "Петр Петров";
-### "phone": "89110005556"
-### }
+ {
+
+ "email": "user@mail.ru";
+
+ "password": "0000string";
+
+ "fname": "Петр Петров";
+
+ "phone": "89110005556"
+
+ }
+
+ Response:
+
+ {
+ 
+ "id": "1";
+ 
+ "email": "user@mail.ru";
+ 
+ "fname": "Петр Петров";
+ 
+ "phone": "89110005556"
+ 
+ }
 
 ### Метод POST/auth/login (Авторизация пользователя)
 

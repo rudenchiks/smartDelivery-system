@@ -138,7 +138,7 @@ Response:
 
 #### Метод PATCH/requests/{id}/status (Изменение статуса и отмена заказа)
 
-#### Метод PATCH/requests/{id}/status (Изменение статуса заказа ("created", "approved", "beind_delivered", "delivered", "canceled"))
+#### Метод PATCH/requests/{id}/status (Изменение статуса заказа ("created", "approved", "being_delivered", "delivered", "canceled"))
 
 
 
